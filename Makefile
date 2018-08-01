@@ -1,15 +1,15 @@
 export GO15VENDOREXPERIMENT=1
 
-all: nano-node nano-vanity nano-wallet
+all: banano-node banano-vanity banano-wallet
 
-nano-node: prep
-	go build -o build/bin/nano-node github.com/BananoCoin/gobanano/cmd/nano-node
+banano-node: prep
+	go build -o build/bin/banano-node github.com/BananoCoin/gobanano/cmd/nano-node
 
-nano-vanity: prep
-	go build -o build/bin/nano-vanity github.com/BananoCoin/gobanano/cmd/nano-vanity
+banano-vanity: prep
+	go build -o build/bin/banano-vanity github.com/BananoCoin/gobanano/cmd/nano-vanity
 
-nano-wallet: prep
-	go build -o build/bin/nano-wallet github.com/BananoCoin/gobanano/cmd/nano-wallet
+banano-wallet: prep
+	go build -o build/bin/banano-wallet github.com/BananoCoin/gobanano/cmd/nano-wallet
 
 test:
 	GOCACHE=off go test -v $(shell go list ./... | grep -v vendor)
