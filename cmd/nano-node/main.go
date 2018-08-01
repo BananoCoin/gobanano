@@ -7,11 +7,11 @@ import (
 	"path"
 	"syscall"
 
-	"github.com/alexbakker/gonano/cmd/nano-node/config"
-	"github.com/alexbakker/gonano/nano/node"
-	"github.com/alexbakker/gonano/nano/node/proto"
-	"github.com/alexbakker/gonano/nano/store"
-	"github.com/alexbakker/gonano/nano/store/genesis"
+	"github.com/bananocoin/gobanano/cmd/nano-node/config"
+	"github.com/bananocoin/gobanano/nano/node"
+	"github.com/bananocoin/gobanano/nano/node/proto"
+	"github.com/bananocoin/gobanano/nano/store"
+	"github.com/bananocoin/gobanano/nano/store/genesis"
 	"github.com/spf13/cobra"
 )
 
@@ -27,7 +27,7 @@ var (
 	cfgDefaults = config.Config{
 		Addr: node.DefaultOptions.Address,
 		Peers: []string{
-			"rai.raiblocks.net:7075",
+			"tarzan.banano.co.in:7071",
 		},
 		Network: proto.NetworkLive,
 	}
