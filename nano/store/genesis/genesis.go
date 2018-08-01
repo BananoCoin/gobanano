@@ -25,7 +25,7 @@ var (
 			Signature:      util.MustDecodeHex64("533dcab343547b93c4128e779848dea5877d3278cb5ea948bb3a9aa1ae0db293de6d9da4f69e8d1ddfa385f9b4c5e4f38dfa42c00d7b183560435d07afa18900"),
 		},
 		Balance:       nano.ParseBalanceInts(0xffffffffffffffff, 0xffffffffffffffff),
-		WorkThreshold: uint64(0xffffffc000000000),
+		WorkThreshold: uint64(0xfffffe0000000000),
 	}
 
 	Beta = Genesis{
@@ -38,7 +38,7 @@ var (
 		},
 		Balance:       nano.ParseBalanceInts(0xffffffffffffffff, 0xffffffffffffffff),
 		WorkThreshold: uint64(0xfffffe0000000000),
-	} // 0xff00000000000000 - test
+	}
 )
 
 func Get(network proto.Network) (Genesis, error) {
