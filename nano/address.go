@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/alexbakker/gonano/nano/crypto/ed25519"
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"github.com/bananocoin/gobanano/nano/crypto/ed25519"
+	"github.com/bananocoin/gobanano/nano/internal/util"
 	"golang.org/x/crypto/blake2b"
 )
 
@@ -17,7 +17,7 @@ const (
 	// AddressSize represents the binary size of a Nano address (a public key).
 	AddressSize = ed25519.PublicKeySize
 	// AddressPrefix is the prefix of Nano addresses.
-	AddressPrefix = "xrb_"
+	AddressPrefix = "ban_"
 
 	// AddressEncodingAlphabet is Nano's custom alphabet for base32 encoding
 	AddressEncodingAlphabet = "13456789abcdefghijkmnopqrstuwxyz"
