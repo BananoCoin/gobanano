@@ -8,9 +8,9 @@ import (
 type Network rune
 
 const (
-	NetworkTest = 'A'
-	NetworkBeta = 'B'
-	NetworkLive = 'C'
+	NetworkTest = 'Y'
+	NetworkBeta = 'Z'
+	NetworkLive = 'X'
 )
 
 var (
@@ -36,7 +36,7 @@ type Versions struct {
 func New(net Network) *Proto {
 	return &Proto{
 		net:   net,
-		magic: [...]byte{'R', byte(net)},
+		magic: [...]byte{'B', byte(net)},
 		versions: Versions{
 			Max:   0x07,
 			Using: 0x07,
