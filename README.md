@@ -11,17 +11,20 @@ Hopefully Alex has the cycles to continue this project, it seems promising.
 
 ### Building / Running 
 
-Install go (>1.8) and configure a $GOPATH e.g. ~/go/.
+Install go (>1.8) and configure a $GOPATH e.g. ~/go/. Please note the `go get` is case-sensitive.
 
 ```
-[am@nano ~]$ go get github.com/BananoCoin/gobanano
-[am@nano ~]$ cd go/src/github.com/BananoCoin/gobanano/
-[am@nano gobanano]$ make
+$ go get github.com/BananoCoin/gobanano
+
+$ cd go/src/github.com/BananoCoin/gobanano/
+
+$ make
 mkdir -p build/bin
 go build -o build/bin/banano-node github.com/BananoCoin/gobanano/cmd/nano-node
 go build -o build/bin/banano-vanity github.com/BananoCoin/gobanano/cmd/nano-vanity
 go build -o build/bin/banano-wallet github.com/BananoCoin/gobanano/cmd/nano-wallet
-[am@nano gobanano]$ build/bin/banano-node
+
+$ build/bin/banano-node
 2018/08/01 21:49:34.455560 opening badger database at /home/am/.config/gonano/node
 2018/08/01 21:49:34.462027 initializing ledger
 2018/08/01 21:49:34.463065 initializing node
