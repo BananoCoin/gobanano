@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bananocoin/gobanano/nano/block"
-	"github.com/bananocoin/gobanano/nano/node/proto"
-	"github.com/bananocoin/gobanano/nano/store/genesis"
+	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano/node/proto"
+	"github.com/BananoCoin/gobanano/nano/store/genesis"
 )
 
 type testLedger struct {

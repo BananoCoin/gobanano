@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/bananocoin/gobanano/nano/internal/uint128"
-	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano/internal/uint128"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 	"github.com/shopspring/decimal"
 )
 

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bananocoin/gobanano/nano/crypto/ed25519"
-	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano/crypto/ed25519"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 	"golang.org/x/crypto/blake2b"
 )
 

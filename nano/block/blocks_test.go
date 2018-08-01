@@ -3,8 +3,8 @@ package block
 import (
 	"testing"
 
-	"github.com/bananocoin/gobanano/nano"
-	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 )
 
 var (

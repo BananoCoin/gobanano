@@ -7,11 +7,11 @@ import (
 	"path"
 	"syscall"
 
-	"github.com/bananocoin/gobanano/cmd/nano-node/config"
-	"github.com/bananocoin/gobanano/nano/node"
-	"github.com/bananocoin/gobanano/nano/node/proto"
-	"github.com/bananocoin/gobanano/nano/store"
-	"github.com/bananocoin/gobanano/nano/store/genesis"
+	"github.com/BananoCoin/gobanano/cmd/nano-node/config"
+	"github.com/BananoCoin/gobanano/nano/node"
+	"github.com/BananoCoin/gobanano/nano/node/proto"
+	"github.com/BananoCoin/gobanano/nano/store"
+	"github.com/BananoCoin/gobanano/nano/store/genesis"
 	"github.com/spf13/cobra"
 )
 

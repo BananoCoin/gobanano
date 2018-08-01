@@ -10,7 +10,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/bananocoin/gobanano/nano/crypto/ed25519/internal/edwards25519"
+	"github.com/BananoCoin/gobanano/nano/crypto/ed25519/internal/edwards25519"
 )
 
 type zeroReader struct{}

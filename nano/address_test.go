@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 )
 
 func TestNanoAddress(t *testing.T) {

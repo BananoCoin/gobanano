@@ -1,9 +1,9 @@
 package wallet
 
 import (
-	"github.com/bananocoin/gobanano/nano"
-	"github.com/bananocoin/gobanano/nano/block"
-	"github.com/bananocoin/gobanano/nano/crypto/ed25519"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano/crypto/ed25519"
 )
 
 // Account represents an account in a Nano wallet.

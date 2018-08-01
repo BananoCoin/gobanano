@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/bananocoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano"
 )
 
 type Vote struct {

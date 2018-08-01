@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	"github.com/bananocoin/gobanano/nano"
-	"github.com/bananocoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/block"
 	"github.com/dgraph-io/badger"
 	badgerOpts "github.com/dgraph-io/badger/options"
 )

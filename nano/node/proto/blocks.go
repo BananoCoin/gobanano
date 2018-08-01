@@ -1,6 +1,6 @@
 package proto
 
-import "github.com/bananocoin/gobanano/nano/block"
+import "github.com/BananoCoin/gobanano/nano/block"
 
 type BlockPacket struct {
 	Type  byte

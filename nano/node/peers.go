@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/bananocoin/gobanano/nano/crypto/random"
+	"github.com/BananoCoin/gobanano/nano/crypto/random"
 )
 
 var (
