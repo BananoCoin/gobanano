@@ -3,10 +3,10 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/internal/util"
-	"github.com/alexbakker/gonano/nano/node/proto"
+	"github.com/bananocoin/gobanano/nano"
+	"github.com/bananocoin/gobanano/nano/block"
+	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/bananocoin/gobanano/nano/node/proto"
 )
 
 type Genesis struct {
@@ -18,11 +18,11 @@ type Genesis struct {
 var (
 	Live = Genesis{
 		Block: block.OpenBlock{
-			SourceHash:     util.MustDecodeHex32("e89208dd038fbb269987689621d52292ae9c35941a7484756ecced92a65093ba"),
-			Representative: util.MustDecodeHex32("e89208dd038fbb269987689621d52292ae9c35941a7484756ecced92a65093ba"),
-			Address:        util.MustDecodeHex32("e89208dd038fbb269987689621d52292ae9c35941a7484756ecced92a65093ba"),
-			Work:           0x62f05417dd3fb691,
-			Signature:      util.MustDecodeHex64("9f0c933c8ade004d808ea1985fa746a7e95ba2a38f867640f53ec8f180bdfe9e2c1268dead7c2664f356e37aba362bc58e46dba03e523a7b5a19e4b6eb12bb02"),
+			SourceHash:     util.MustDecodeHex32("2514452A978F08D1CF76BB40B6AD064183CF275D3CC5D3E0515DC96E2112AD4E"),
+			Representative: util.MustDecodeHex32("2514452A978F08D1CF76BB40B6AD064183CF275D3CC5D3E0515DC96E2112AD4E"),
+			Address:        util.MustDecodeHex32("2514452A978F08D1CF76BB40B6AD064183CF275D3CC5D3E0515DC96E2112AD4E"),
+			Work:           0xfa055f79fa56abcf,
+			Signature:      util.MustDecodeHex64("533dcab343547b93c4128e779848dea5877d3278cb5ea948bb3a9aa1ae0db293de6d9da4f69e8d1ddfa385f9b4c5e4f38dfa42c00d7b183560435d07afa18900"),
 		},
 		Balance:       nano.ParseBalanceInts(0xffffffffffffffff, 0xffffffffffffffff),
 		WorkThreshold: uint64(0xffffffc000000000),
@@ -37,8 +37,8 @@ var (
 			Signature:      util.MustDecodeHex64("a726490e3325e4fa59c1c900d5b6eebb15fe13d99f49d475b93f0aacc5635929a0614cf3892764a04d1c6732a0d716ffeb254d4154c6f544d11e6630f201450b"),
 		},
 		Balance:       nano.ParseBalanceInts(0xffffffffffffffff, 0xffffffffffffffff),
-		WorkThreshold: uint64(0xffffffc000000000),
-	}
+		WorkThreshold: uint64(0xfffffe0000000000),
+	} // 0xff00000000000000 - test
 )
 
 func Get(network proto.Network) (Genesis, error) {
