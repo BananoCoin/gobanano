@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/alexbakker/gonano/nano/crypto/ed25519"
-	"github.com/alexbakker/gonano/nano/crypto/random"
+	"github.com/BananoCoin/gobanano/nano/crypto/ed25519"
+	"github.com/BananoCoin/gobanano/nano/crypto/random"
 	"golang.org/x/crypto/blake2b"
 )
 

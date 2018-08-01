@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/crypto/random"
+	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano/crypto/random"
 )
 
 func generateBlock(t testing.TB) block.Block {

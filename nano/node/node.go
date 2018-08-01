@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/node/proto"
-	"github.com/alexbakker/gonano/nano/store"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano/node/proto"
+	"github.com/BananoCoin/gobanano/nano/store"
 )
 
 var (

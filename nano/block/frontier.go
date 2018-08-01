@@ -3,8 +3,8 @@ package block
 import (
 	"bytes"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 )
 
 const (

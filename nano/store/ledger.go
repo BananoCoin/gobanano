@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/store/genesis"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/BananoCoin/gobanano/nano/store/genesis"
 )
 
 var (

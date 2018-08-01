@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 )
 
 type KeepAlivePacket struct {

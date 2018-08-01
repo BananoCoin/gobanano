@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/wallet"
+	"github.com/BananoCoin/gobanano/nano"
+	"github.com/BananoCoin/gobanano/nano/wallet"
 	"github.com/spf13/cobra"
 )
 

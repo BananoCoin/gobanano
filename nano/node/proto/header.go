@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/alexbakker/gonano/nano/internal/util"
+	"github.com/BananoCoin/gobanano/nano/internal/util"
 )
 
 const (
