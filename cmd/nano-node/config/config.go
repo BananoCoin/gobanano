@@ -1,6 +1,6 @@
 package config
 
-import "github.com/BananoCoin/gobanano/nano/node/proto"
+import "github.com/bananocoin/gobanano/nano/node/proto"
 
 type Config struct {
 	Addr      string        `json:"addr"`

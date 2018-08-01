@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/BananoCoin/gobanano/nano"
-	"github.com/BananoCoin/gobanano/nano/block"
-	"github.com/BananoCoin/gobanano/nano/internal/util"
+	"github.com/bananocoin/gobanano/nano"
+	"github.com/bananocoin/gobanano/nano/block"
+	"github.com/bananocoin/gobanano/nano/internal/util"
 )
 
 type BulkPullMode byte

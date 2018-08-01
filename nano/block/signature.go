@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/BananoCoin/gobanano/nano/crypto/ed25519"
+	"github.com/bananocoin/gobanano/nano/crypto/ed25519"
 )
 
 const (

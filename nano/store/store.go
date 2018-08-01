@@ -3,8 +3,8 @@ package store
 import (
 	"errors"
 
-	"github.com/BananoCoin/gobanano/nano"
-	"github.com/BananoCoin/gobanano/nano/block"
+	"github.com/bananocoin/gobanano/nano"
+	"github.com/bananocoin/gobanano/nano/block"
 )
 
 var (
