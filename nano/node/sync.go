@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/alexbakker/gonano/nano"
-	"github.com/alexbakker/gonano/nano/block"
-	"github.com/alexbakker/gonano/nano/internal/util"
-	"github.com/alexbakker/gonano/nano/node/proto"
+	"github.com/bananocoin/gobanano/nano"
+	"github.com/bananocoin/gobanano/nano/block"
+	"github.com/bananocoin/gobanano/nano/internal/util"
+	"github.com/bananocoin/gobanano/nano/node/proto"
 )
 
 const (
